@@ -154,3 +154,8 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 }
 ```
 
+## Contribuições
+
+Sinta-se à vontade para contribuir com melhorias. Faça um fork do projeto, crie uma branch para sua feature e envie um pull request.
+
+---
