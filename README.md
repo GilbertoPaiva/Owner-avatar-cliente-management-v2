@@ -4,12 +4,12 @@ Este projeto é um sistema de gerenciamento de clientes, produtos e vendas. Ele 
 
 #### 2. Estrutura do Projeto
 
-- `br.com.gpaiva.anotacao`: Contém anotações personalizadas.
-- `br.com.gpaiva.dao`: Contém as classes DAO (Data Access Object) para acesso ao banco de dados.
-- `br.com.gpaiva.domain`: Contém as classes de domínio do projeto.
-- `br.com.gpaiva.exception`: Contém classes de exceção personalizadas.
-- `br.com.gpaiva.services`: Contém as classes de serviço que implementam a lógica de negócios.
-- `br.com.gpaiva.test`: Contém os testes unitários.
+- `anotacao`: Contém anotações personalizadas.
+- `dao`: Contém as classes DAO (Data Access Object) para acesso ao banco de dados.
+- `domain`: Contém as classes de domínio do projeto.
+- `exception`: Contém classes de exceção personalizadas.
+- `services`: Contém as classes de serviço que implementam a lógica de negócios.
+- `test.br.com.gpaiva`: Contém os testes unitários.
 
 #### 3. Configuração do Ambiente
 
@@ -84,7 +84,7 @@ public class Venda implements Persistente {
 
 #### 6. Testes
 
-Os testes estão localizados no pacote `br.com.gpaiva.test`. Para executar os testes, utilize o comando:
+Os testes estão localizados no pacote `test.br.com.gpaiva`. Para executar os testes, utilize o comando:
 
 ```bash
 mvn test
